@@ -9,7 +9,7 @@
   <img  src="https://img.shields.io/github/stars/Mika1805/Flame-Grabber?color=6d00c1&logoColor=6d00c1">
   <br>
   <img  src="https://img.shields.io/github/commit-activity/w/Mika1805/Flame-Grabber?color=6d00c1">
-  <img  src="https://img.shields.io/github/last-commit/Smug246/Luna-Token-Grabber?color=6d00c1&logoColor=6d00c1">
+  <img  src="https://img.shields.io/github/last-commit/Mika1805/Flame-Grabber?color=6d00c1&logoColor=6d00c1">
   <br>
   <img  src="https://img.shields.io/github/issues/Mika1805/Flame-Grabber?color=6d00c1&logoColor=6d00c1">
   <img  src="https://img.shields.io/github/issues-closed/Mika1805/Flame-Grabber?color=6d00c1&logoColor=6d00c1">
