@@ -1,6 +1,6 @@
 wheel
 tinyaes
 pyinstaller
-pyaesm
+pyaes
 urllib3
 requests

