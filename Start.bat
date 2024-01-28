@@ -2,7 +2,6 @@
 cd /d %~dp0
 color 3
 title Flame-Grabber
-start /d "Components" ui-helper.exe
 title Installing Requirements
 pip install -r requirements.txt
 title Checking Python installation...
